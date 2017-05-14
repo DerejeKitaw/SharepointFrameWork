@@ -48,6 +48,14 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
               groupFields: [
                 PropertyPaneTextField('description', {
                   label: strings.DescriptionFieldLabel
+                }),
+                PropertyPaneDropdown('color',{
+                  label: 'Dropdown',
+                  options: [
+                    {key: '1' ,text:'Red'},
+                    {key: '2' ,text:'Blue'},
+                    {key: '3' ,text:'Yellow'},
+                  ]
                 })
               ]
             }

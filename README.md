@@ -45,3 +45,4 @@ gulp serve
 # Add dropdown field in the webpart
     ->import PropertyPaneDropdown in HellowWorldWebPart.ts
     ->Create a property called color with value red
+    ->Add dropdown property field
