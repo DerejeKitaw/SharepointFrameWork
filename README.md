@@ -62,4 +62,9 @@ gulp serve
     *->import Environment, EnvironmentType
         *${Environment.type} will return 1 for localhosted webpart
         *${Environment.type} will return 2 for sharepointhosted webpart
+            *ClassicalSharePoint = 0
+            *Local = 1
+            *Sharepoint = 2
+            *Test = 3
+
 
