@@ -72,3 +72,15 @@ gulp serve
 # If your webpart run in sharepoint workbench
     *-> List all lists in your sharepoint
 
+# How to bundle and deploy webpart
+    * How to bundle webpart
+        - Note if localhost [https://localhost:4321/temp/workbench.html] (gulp serve) is not running sharepoint [https://dkitaw.sharepoint.com/_layouts/15/workbench.aspx] will through error
+        *gulp package-solution
+            This will create pacage file as described in package-solution.json. For this case the package will be located at 
+            "zippedPackage": "solution/hello-world-webpart.sppkg" 
+           * the solution package created usin gulp package-solution is for developmnt only because it is not minified
+           *If you want to deploy the package in production use
+           gulp package-solution -ship
+
+           
+
