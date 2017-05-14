@@ -35,7 +35,9 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
   protected get dataVersion(): Version {
     return Version.parse('1.0');
   }
-
+validateDescription(){
+  return ;
+}
   protected get disableReactivePropertyChanges():boolean{
     return true;
   }
@@ -52,7 +54,8 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
               groupName: strings.BasicGroupName,
               groupFields: [
                 PropertyPaneTextField('description', {
-                  label: strings.DescriptionFieldLabel
+                  label: strings.DescriptionFieldLabel,
+                  onGetErrorMessage: this.validateDescription.bind(this)
                 }),
                 PropertyPaneDropdown('color',{
                   label: 'Dropdown',

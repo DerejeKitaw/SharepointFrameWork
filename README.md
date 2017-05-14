@@ -53,3 +53,7 @@ gulp serve
 # Make webpart not auto calculate
     -> use disableReactivePropertyChanges to true
         this will make the webpart not to evaluate automaticaly
+
+# How to add validation to our controller
+    ->onGetErrorMessage: this.validateDescription.bind(this)
+        Note validateDescription not implemented it is returning true now (TODO)
