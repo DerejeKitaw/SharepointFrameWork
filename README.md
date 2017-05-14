@@ -46,3 +46,5 @@ gulp serve
     ->import PropertyPaneDropdown in HellowWorldWebPart.ts
     ->Create a property called color with value red
     ->Add dropdown property field
+        At this point the dropdown field is not visible in the webpart
+    ->Add the color propery in the model(IHelloWorldWebPartProps)
