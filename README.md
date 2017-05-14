@@ -82,5 +82,6 @@ gulp serve
            *If you want to deploy the package in production use
            gulp package-solution -ship
 
+           *To deploy to the sharepoint just drop the package in the app catalog. Note this code is running in local host. If gulp serve stope it will through error in the share point.
            
 
