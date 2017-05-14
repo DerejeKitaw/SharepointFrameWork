@@ -41,3 +41,7 @@ gulp serve
     https://yourSharePointCollectionUrl/_layouts/15/workbench.aspx
 
     -> Here in this url on the actual url you will see your HellowWorld webpart.
+
+# Add dropdown field in the webpart
+    ->import PropertyPaneDropdown in HellowWorldWebPart.ts
+    
