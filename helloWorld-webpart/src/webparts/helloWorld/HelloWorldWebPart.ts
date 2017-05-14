@@ -31,10 +31,20 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
           </div>
         </div>
       </div>
-      <div>${Environment.type}<div>
+      <div id="enviromentType"><div>
       `;
+      this.getEnviroment();
   }
 
+getEnviroment(){
+let html: string ='';
+if (Environment.type === EnvironmentType.Local){
+this.domElement.querySelector('#enviromentType').innerHTML = "You are in LocalHost enviroment";
+}else{
+  this.domElement.querySelector('#enviromentType').innerHTML = "You are in Sharepoint enviroment";
+  
+}
+}
   protected get dataVersion(): Version {
     return Version.parse('1.0');
   }

@@ -67,4 +67,5 @@ gulp serve
             *Sharepoint = 2
             *Test = 3
 
-
+# Show message where the webpart inviroment is
+    *
