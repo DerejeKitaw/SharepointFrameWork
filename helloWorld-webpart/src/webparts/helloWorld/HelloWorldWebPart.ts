@@ -6,6 +6,7 @@ import {
   PropertyPaneDropdown
 } from '@microsoft/sp-webpart-base';
 import { escape } from '@microsoft/sp-lodash-subset';
+import { Environment, EnvironmentType } from '@microsoft/sp-core-library';
 
 import styles from './HelloWorld.module.scss';
 import * as strings from 'helloWorldStrings';
@@ -29,7 +30,9 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
             </div>
           </div>
         </div>
-      </div>`;
+      </div>
+      <div>${Environment.type}<div>
+      `;
   }
 
   protected get dataVersion(): Version {

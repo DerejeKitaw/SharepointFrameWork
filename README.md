@@ -57,3 +57,9 @@ gulp serve
 # How to add validation to our controller
     ->onGetErrorMessage: this.validateDescription.bind(this)
         Note validateDescription not implemented it is returning true now (TODO)
+
+# How do I know the enviroment the webpart is running (localhost or actualSharepoint site)?
+    *->import Environment, EnvironmentType
+        *${Environment.type} will return 1 for localhosted webpart
+        *${Environment.type} will return 2 for sharepointhosted webpart
+
