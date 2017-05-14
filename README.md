@@ -48,3 +48,5 @@ gulp serve
     ->Add dropdown property field
         At this point the dropdown field is not visible in the webpart
     ->Add the color propery in the model(IHelloWorldWebPartProps)
+    ->insert the dropdown in the webpart
+    
