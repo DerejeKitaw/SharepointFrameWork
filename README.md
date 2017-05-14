@@ -69,3 +69,6 @@ gulp serve
 
 # Show message where the webpart inviroment is
     *
+# If your webpart run in sharepoint workbench
+    *-> List all lists in your sharepoint
+
