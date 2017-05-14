@@ -35,3 +35,9 @@ gulp serve
 
 # gulp clean 
     -> will clean temporary files and help to see current modification
+
+# The following url will take to same layout found with gulp serve
+    https://dkitaw.sharepoint.com/_layouts/15/workbench.aspx
+    https://yourSharePointCollectionUrl/_layouts/15/workbench.aspx
+
+    -> Here in this url on the actual url you will see your HellowWorld webpart.
