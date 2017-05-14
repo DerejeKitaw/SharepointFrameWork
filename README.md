@@ -49,4 +49,7 @@ gulp serve
         At this point the dropdown field is not visible in the webpart
     ->Add the color propery in the model(IHelloWorldWebPartProps)
     ->insert the dropdown in the webpart
-    
+
+# Make webpart not auto calculate
+    -> use disableReactivePropertyChanges to true
+        this will make the webpart not to evaluate automaticaly
