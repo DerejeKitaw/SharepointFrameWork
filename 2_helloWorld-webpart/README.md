@@ -1,3 +1,11 @@
+###
+01_Install sharepoint frame work using yeoman
+`yo @microsoft/sharepoint`
+02_Install gulp developer certificate. 
+`gulp trust-dev-cert`
+03_Start initial webpart
+`gulp serve`
+
 ## hellow-world-2
 
 This is where you include your WebPart documentation.
