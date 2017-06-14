@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/hellowWorld2/HellowWorld2WebPart.js",
+      "manifest": "./src/webparts/hellowWorld2/HellowWorld2WebPart.manifest.json",
+      "outputPath": "./dist/hellow-world-2.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "hellowWorld2Strings": "webparts/hellowWorld2/loc/{locale}.js"
+  }
+}
