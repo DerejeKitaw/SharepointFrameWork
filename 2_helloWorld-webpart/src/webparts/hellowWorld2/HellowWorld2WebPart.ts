@@ -2,7 +2,10 @@ import { Version } from '@microsoft/sp-core-library';
 import {
   BaseClientSideWebPart,
   IPropertyPaneConfiguration,
-  PropertyPaneTextField
+  PropertyPaneTextField ,
+  PropertyPaneCheckbox,
+  PropertyPaneDropdown,
+  PropertyPaneToggle
 } from '@microsoft/sp-webpart-base';
 import { escape } from '@microsoft/sp-lodash-subset';
 
@@ -21,6 +24,7 @@ export default class HellowWorld2WebPart extends BaseClientSideWebPart<IHellowWo
                   <span class="ms-font-xl ms-fontColor-white">Welcome to SharePoint!</span>
                   <p class="ms-font-l ms-fontColor-white">Customize SharePoint experiences using Web Parts.</p>
                   <p class="ms-font-l ms-fontColor-white">${escape(this.properties.description)}</p>
+                  <p class="ms-font-l ms-fontColor-white">${escape(this.properties.UserNameFieldLable)}</p>
                   <a href="https://aka.ms/spfx" class="${styles.button}">
                     <span class="${styles.label}">Learn more</span>
                   </a>
@@ -48,8 +52,10 @@ export default class HellowWorld2WebPart extends BaseClientSideWebPart<IHellowWo
               groupFields: [
                 PropertyPaneTextField('description', {
                   label: strings.DescriptionFieldLabel
-                })
-              ]
+                }), PropertyPaneTextField('UserName', {
+                  label: strings.UserNameFieldLable
+                }),
+              ] // groupFields ENDS
             }
           ]
         }
