@@ -1,7 +1,9 @@
 define([], function() {
   return {
-    "PropertyPaneDescription": "Description",
-    "BasicGroupName": "Group Name",
-    "DescriptionFieldLabel": "Description Field"
+    "PropertyPaneDescription": "This is property panel discription",
+    "BasicGroupName": "Hellow World Group Name",
+    "DescriptionFieldLabel": "Description Field",
+    "UserName":"User Name",
+    "UserNameFieldLable":"User Name"
   }
 });
