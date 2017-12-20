@@ -4,14 +4,11 @@ node bundle.js
 
 # bundel.js contain both index.js and moment.js codes bundles
 
-
-
 # install yeoman
 npm install -g yo
 
 # install gulp
 npm install -gulp
-
 
 # install yeoman sharepoint generator template
 npm install -g @microsoft/generator-sharepoint
