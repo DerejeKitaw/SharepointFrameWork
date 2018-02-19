@@ -18,7 +18,7 @@ md helloworld-webpart
 cd hellworld-webpart
 yo @microsoft/sharepoint
 
-# befor running check the dev certificate for web pack.
+# Befor running check the dev certificate for web pack.
 This will help to run https in a local host during development
 gulp trust-dev-cert
 
