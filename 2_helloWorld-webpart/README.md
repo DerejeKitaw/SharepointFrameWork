@@ -1,10 +1,10 @@
 ###
 01_Install sharepoint frame work using yeoman
-`yo @microsoft/sharepoint`
+```yo @microsoft/sharepoint```
 02_Install gulp developer certificate. 
-`gulp trust-dev-cert`
+```gulp trust-dev-cert```
 03_Start initial webpart
-`gulp serve`
+```gulp serve```
 
 ## hellow-world-2
 
