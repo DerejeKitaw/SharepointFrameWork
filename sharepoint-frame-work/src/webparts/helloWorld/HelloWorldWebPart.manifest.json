@@ -14,14 +14,20 @@
   "requiresCustomScript": false,
   "supportedHosts": ["SharePointWebPart"],
 
-  "preconfiguredEntries": [{
-    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
-    "group": { "default": "Other" },
-    "title": { "default": "HelloWorld" },
-    "description": { "default": "HelloWorld description" },
-    "officeFabricIconFontName": "Page",
-    "properties": {
-      "description": "HelloWorld"
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+      "group": { "default": "Other" },
+      "title": { "default": "HelloWorld" },
+      "description": { "default": "HelloWorld description" },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "Hello World1",
+        "test": "Multi-line text field",
+        "test1": true,
+        "test2": "2",
+        "test3": true
+      }
     }
-  }]
+  ]
 }
