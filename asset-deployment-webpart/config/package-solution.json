@@ -1,11 +1,29 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "asset-deployment-webpart-client-side-solution",
-    "id": "2c1d74a8-800c-41f5-afbf-89367d829461",
-    "version": "1.0.0.0",
+    "id": "6690f11b-012f-4268-bc33-3086eb2dd287",
+    "version": "2.0.0.0",
     "includeClientSideAssets": true,
-    "isDomainIsolated": false
+    "isDomainIsolated": false,
+    "features": [{
+      "title": "asset-deployment-webpart-client-side-solution",
+      "description": "asset-deployment-webpart-client-side-solution",
+      "id": "523fe827-ced3-4036-b564-8dad5c6c6e21",    
+      "version": "1.0.0.0",
+      "assets": {
+        "elementManifests": [
+          "elements.xml",
+          "elements-v2.xml"
+        ],
+        "elementFiles":[
+          "schema.xml"
+        ],
+        "upgradeActions":[
+          "upgrade-actions-v2.xml"
+        ]
+      }
+    }]
   },
   "paths": {
     "zippedPackage": "solution/asset-deployment-webpart.sppkg"
