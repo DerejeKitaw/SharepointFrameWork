@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "documentcardexample-webpart-client-side-solution",
+    "id": "48be25fe-0f7d-4d65-adb2-09086349da59",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/documentcardexample-webpart.sppkg"
+  }
+}
