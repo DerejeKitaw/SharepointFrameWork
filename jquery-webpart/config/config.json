@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "j-query-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jQuery/JQueryWebPart.js",
+          "manifest": "./src/webparts/jQuery/JQueryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery":"node_modules/jquery/dist/jquery.min.js",
+"jqueryui":"node_modules/jqueryui/jquery-ui.min.js"
+  },
+  "localizedResources": {
+    "JQueryWebPartStrings": "lib/webparts/jQuery/loc/{locale}.js"
+  }
+}
